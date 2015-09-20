@@ -17,6 +17,9 @@
             <li>
                 <a href="http://blog.mafiagame.ir">بلاگ</a>
             </li>
+            <li>
+                <a href="http://github.com/mafiagameir/">کد بازی</a>
+            </li>
         </ul>
     </div>
 </div>
