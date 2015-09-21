@@ -57,6 +57,9 @@
             <li>
                 <a href="http://blog.mafiagame.ir">بلاگ</a>
             </li>
+            <li>
+                <a href="http://github.com/mafiagameir/">کد بازی</a>
+            </li>
         </ul>
         <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
 
