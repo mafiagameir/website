@@ -35,6 +35,24 @@
             direction: ltr;
             color: black;
         }
+
+        @media screen and (min-width: 680px) {
+            #banner {
+                background: url(/img/background.jpg) black 50% 0 no-repeat;
+                height: 450px;
+                background-position: left
+            }
+            #cover-box {
+                background: url(/img/mafia.svg) 50% 0 fixed no-repeat;
+            }
+        }
+
+        @media screen and (max-width: 680px) {
+            #help-side-nav {
+                display: none;
+            }
+        }
+
     </style>
 </head>
 <body style="direction: rtl">

@@ -1,8 +1,7 @@
 <#include "header.ftl">
 <div id="index" class="uk-grid" style="margin-top: 20px" data-uk-grid-margin>
     <div class="uk-width-medium-1-1">
-        <div class="uk-vertical-align uk-text-center"
-             style="background: url(/img/background.jpg) black 50% 0 no-repeat; height: 450px;background-position: left">
+        <div class="uk-vertical-align uk-text-center" id="banner">
             <div class="uk-vertical-align-middle uk-width-1-2">
                 <h1 class="uk-heading-large">بازی گروهی مافیا در تلگرام</h1>
 
@@ -18,7 +17,7 @@
     </div>
 </div>
 
-<div style="background: url(/img/mafia.svg) 50% 0 fixed no-repeat">
+<div id="cover-box">
 
     <div class="uk-grid" data-uk-grid-margin id="mafiagame">
     <#include "mafiagame.ftl">

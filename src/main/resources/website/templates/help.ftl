@@ -19,7 +19,7 @@
         <hr class="uk-grid-divider">
     </#list>
     </div>
-    <div class="uk-width-medium-1-4">
+    <div class="uk-width-medium-1-4" id="help-side-nav">
         <div class="uk-panel uk-panel-box" data-uk-sticky="{top:50,boundary:'#contactus'}">
             <ul class="uk-nav uk-nav-side" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}">
             <#list sections as help>
