@@ -1,0 +1,3 @@
+type=donate
+status=published
+~~~~~~

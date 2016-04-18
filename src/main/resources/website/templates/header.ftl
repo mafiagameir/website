@@ -56,7 +56,6 @@
     </style>
     <script type="application/javascript">
         var donate = function () {
-            console.log($("#donate").val());
             window.location = $("#donate").val();
         };
     </script>
@@ -92,6 +91,9 @@
             </li>
             <li>
                 <a href="http://github.com/mafiagameir/">کد بازی</a>
+            </li>
+            <li>
+                <a href="/donate.html">حمایت از بازی</a>
             </li>
         </ul>
         <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
