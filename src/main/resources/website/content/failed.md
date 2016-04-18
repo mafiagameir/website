@@ -1,0 +1,3 @@
+type=failed
+status=published
+~~~~~~

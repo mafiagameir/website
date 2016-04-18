@@ -54,6 +54,12 @@
         }
 
     </style>
+    <script type="application/javascript">
+        var donate = function () {
+            console.log($("#donate").val());
+            window.location = $("#donate").val();
+        };
+    </script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -70,16 +76,16 @@
         <a class="uk-navbar-brand uk-hidden-small" href="index.html">مافیا</a>
         <ul class="uk-navbar-nav uk-hidden-small" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}">
             <li>
-                <a href="#index">صفحه اول</a>
+                <a href="/#index">صفحه اول</a>
             </li>
             <li>
-                <a href="#mafiagame">راهنمای بازی مافیا</a>
+                <a href="/#mafiagame">راهنمای بازی مافیا</a>
             </li>
             <li>
-                <a href="#help">راهنمای استفاده از ربات</a>
+                <a href="/#help">راهنمای استفاده از ربات</a>
             </li>
             <li>
-                <a href="#contactus">ارتباط با ما</a>
+                <a href="/#contactus">ارتباط با ما</a>
             </li>
             <li>
                 <a href="http://blog.mafiagame.ir">بلاگ</a>
@@ -89,6 +95,5 @@
             </li>
         </ul>
         <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-
         <div class="uk-navbar-brand uk-navbar-center uk-visible-small">مافیا</div>
     </nav>
