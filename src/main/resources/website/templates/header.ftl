@@ -30,6 +30,10 @@
             font-family: Yekan !important;
         }
 
+        #blog_posts > ul > li > a {
+            color: white;
+        }
+
         code {
             float: left;
             direction: ltr;
