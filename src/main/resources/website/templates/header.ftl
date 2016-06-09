@@ -42,6 +42,7 @@
                 height: 450px;
                 background-position: left
             }
+
             #cover-box {
                 background: url(/img/mafia.svg) 50% 0 fixed no-repeat;
             }
@@ -58,12 +59,28 @@
         var donate = function () {
             window.location = $("#donate").val();
         };
+        $.get("http://blog.mafiagame.ir/wp-json/wp/v2/posts", function (data) {
+            var boxHtml = '<h2 class="uk-h2">آخرین اخبار </h2><ul class="uk-nav">';
+            for (var i = 0; i < 3; i++) {
+                boxHtml += '<li><a href="' + data[i].link + '">' + data[i].title.rendered + '</a></li>';
+            }
+            boxHtml += '</ul>';
+            console.log(boxHtml);
+            $('#blog_posts').html(boxHtml);
+        });
     </script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-69683525-1', 'auto');
         ga('send', 'pageview');
