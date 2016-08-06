@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="ir-fa" dir="rtl">
+<html lang="en-US">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ربات بازی گروهی مافیا در تلگرام">
+    <meta name="description" content="Telegram Mafia Group Game Bot, Telegram bot of Mafia Group Game">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta>
-    <title>بازی گروهی مافیا در تلگرام</title>
-    <link rel="shortcut icon" href="/fa/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/fa/lib/uikit/css/uikit.min.css">
+    <title>Telegram Mafia Group Game Bot</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/lib/uikit/css/uikit.css">
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="/fa/lib/uikit/js/uikit.min.js"></script>
-    <script src="/fa/lib/uikit/js/components/sticky.min.js"></script>
-    <script src="/fa/lib/uikit/js/core/switcher.min.js"></script>
+    <script src="/lib/uikit/js/uikit.min.js"></script>
+    <script src="/lib/uikit/js/components/sticky.min.js"></script>
+    <script src="/lib/uikit/js/core/switcher.min.js"></script>
     <style>
         @font-face {
             font-family: 'Yekan';
@@ -59,20 +59,6 @@
         }
 
     </style>
-    <script type="application/javascript">
-        var donate = function () {
-            window.location = $("/fa/#donate").val();
-        };
-        $.get("http://blog.mafiagame.ir/wp-json/wp/v2/posts", function (data) {
-            var boxHtml = '<h2 class="uk-h2">آخرین اخبار </h2><ul class="uk-nav">';
-            for (var i = 0; i < 3; i++) {
-                boxHtml += '<li><a href="' + data[i].link + '">' + data[i].title.rendered + '</a></li>';
-            }
-            boxHtml += '</ul>';
-            console.log(boxHtml);
-            $('#blog_posts').html(boxHtml);
-        });
-    </script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -90,36 +76,32 @@
         ga('send', 'pageview');
     </script>
 </head>
-<body style="direction: rtl">
+<body>
 <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
     <nav class="uk-navbar uk-margin-large-bottom" data-uk-sticky>
-        <a class="uk-navbar-brand uk-hidden-small" href="fa/index.html">مافیا</a>
+        <a class="uk-navbar-brand uk-hidden-small" href="index.html">Mafia Bot</a>
         <ul class="uk-navbar-nav uk-hidden-small" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}">
             <li>
-                <a href="/fa/#index">صفحه اول</a>
+                <a href="/#index">Home</a>
             </li>
             <li>
-                <a href="/fa/#mafiagame">راهنمای بازی مافیا</a>
+                <a href="/#mafiagame">Game Instruction</a>
             </li>
             <li>
-                <a href="/fa/#help">راهنمای استفاده از ربات</a>
+                <a href="/#help">Bot Instruction</a>
             </li>
             <li>
-                <a href="/fa/#contactus">ارتباط با ما</a>
+                <a href="/#contactus">Contact us</a>
             </li>
             <li>
-                <a href="http://blog.mafiagame.ir">بلاگ</a>
-            </li>
-            <li>
-                <a href="http://github.com/mafiagameir/">کد بازی</a>
-            </li>
-            <li>
-                <a href="/fa/donate.html">حمایت از بازی</a>
-            </li>
-            <li>
-                <a href="/">English</a>
+                <a href="http://github.com/mafiagameir/">Code</a>
             </li>
         </ul>
+        <div class="uk-navbar-nav uk-navbar-flip">
+            <li>
+                <a href="/fa/index.html">فارسی</a>
+            </li>
+        </div>
         <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-        <div class="uk-navbar-brand uk-navbar-center uk-visible-small">مافیا</div>
+        <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Mafia</div>
     </nav>

@@ -7,7 +7,7 @@
             سیاست ما این است که هیچوقت از ربات مافیا به عنوان ابزار پخش تبلیغ استفاده نکنیم بنابراین از شما درخواست داریم
             اگر از ربات مافیا راضی بودید و دوست داشتید به توسعه آن کمک کنید
         </p>
-        <a class="uk-button uk-button-primary" href="/donate.html">حمایت از بازی</a>
+        <a class="uk-button uk-button-primary" href="/fa/donate.html">حمایت از بازی</a>
     </div>
 
     <div class="uk-width-medium-1-1 uk-margin-small-top">
