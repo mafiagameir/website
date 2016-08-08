@@ -7,4 +7,4 @@ For complete manual of classical mafia game read [this instruction](https://www.
 
 If you have willing to know more about game read [wikipedia entry](https://en.wikipedia.org/wiki/Mafia_\(party_game\)).
 
-In this bot we have four playing rule: [citizen](#citizen), [mafia](#mafia), [detector](#detector) and [doctor](#doctor).
+In this bot we have four playing rule: [citizen](#citizen), [mafia](#mafia), [detective](#detective) and [doctor](#doctor).
