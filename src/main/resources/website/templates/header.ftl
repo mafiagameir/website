@@ -61,7 +61,7 @@
     </style>
     <script type="application/javascript">
         var donate = function () {
-            window.location = $("/fa/#donate").val();
+            window.location = $("#donate").val();
         };
         $.get("http://blog.mafiagame.ir/wp-json/wp/v2/posts", function (data) {
             var boxHtml = '<h2 class="uk-h2">آخرین اخبار </h2><ul class="uk-nav">';
