@@ -1,3 +1,5 @@
+This Project is deprecated. see [New Version](https://github.com/mafiagameir/mafia-game)
+
 http://mafiagame.ir codes.
 # build
 All pages generated from freemarker templates by Jbake. for more information see http://jbake.org.
